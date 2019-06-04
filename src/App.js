@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-import StatisticIcon from './initial-assets/extracted-assets-h/StatisticIcon.js';
-import SecondIcon from './initial-assets/extracted-assets-h/SecondIcon.js';
 
 function App() {
   return (
@@ -12,11 +10,7 @@ function App() {
 	          This is a FRONTEND project <br /> for Scandiweb <br /> by Haralds Matulis.
 	        </p>
 	      </header>
-	      
-
 	    </div>
-	    <StatisticIcon />
-	    <SecondIcon />
     </div>
   );
 }
