@@ -15,4 +15,50 @@ code {
     monospace;
 }
 
+/* styles from svg file */
+tspan { white-space:pre }
+    .shp0 { fill: #161823 } 
+    .shp1 { fill: none;stroke: #ff2366;stroke-width: 0.5 } 
+    .shp2 { fill: #ff2366 } 
+    .txt3 { font-size: 14px;line-height: 36px;fill: #ffffff;font-family: "Lato";font-weight: 500 } 
+    .txt4 { font-size: 28px;line-height: 36px;fill: #ffffff;font-family: "Lato";font-weight: 400 } 
+    .shp5 { fill: none;stroke: #0b78e3;stroke-width: 0.5 } 
+    .shp6 { fill: #0b78e3 } 
+    .txt7 { font-size: 14px;line-height: 20px;fill: #ffffff;font-family: "Lato";font-weight: 400 } 
+    .txt8 { font-size: 18px;line-height: 26px;fill: #ffffff;font-family: "Lato";font-weight: 500 } 
+    .shp9 { fill: #ffffff } 
+    .shp10 { fill: #0e0f1a } 
+    .shp11 { fill: url(#grd1) } 
+    .shp12 { opacity: 0.2;fill: #000000 } 
+    .shp13 { fill: url(#grd2) } 
+    .shp14 { fill: url(#grd3) } 
+    .shp15 { opacity: 0.369;fill: #000000 } 
+    .shp16 { fill: none;stroke: #ffffff } 
+    .txt17 { font-size: 14px;line-height: 20px;fill: #ffffff;font-family: "Heebo";font-weight: 400 } 
+    .txt18 { font-size: 28px;line-height: 36px;fill: #ffffff;font-family: "Lato";font-weight: 500 } 
+    .shp19 { fill: #060812 } 
+    .shp20 { opacity: 0.102;fill: #ffffff } 
+    .txt21 { font-size: 14px;line-height: 24px;fill: #ffffff;font-family: "Lato";font-weight: 500 } 
+    .shp22 { opacity: 0.2;fill-opacity: 0.071;fill: #ffffff;stroke: #ffffff;stroke-width: 0.5 } 
+    .txt23 { font-size: 48px;line-height: 64px;fill: #ff2366;font-family: "Heebo";font-weight: 400 } 
+    .shp24 { opacity: 0.18;fill: #ffffff } 
+    .txt25 { font-size: 16px;line-height: 26px;fill: #ffffff;font-family: "Heebo";font-weight: 400 } 
+    .shp26 { fill: url(#grd4) } 
+    .shp27 { fill: url(#grd5) } 
+    .shp28 { fill: url(#grd6) } 
+    .txt29 { font-size: 14px;line-height: 14px;fill: #ffffff;font-family: "Heebo";font-weight: 400 } 
+    .shp30 { fill: #fd51d9 } 
+    .shp31 { fill: #0e0f1a;stroke: #ffffff } 
+    .shp32 { fill: #161823;stroke: #ffffff } 
+    .shp33 { fill: #1a1b25 } 
+    .shp34 { opacity: 0.302;fill: #ffffff } 
+    .shp35 { opacity: 0.149;fill: #ffffff } 
+    .shp36 { opacity: 0.502;mix-blend-mode: lighten;fill: url(#grd7) } 
+    .shp37 { opacity: 0.451;fill: #10162c } 
+    .shp38 { fill: url(#grd8) } 
+    .txt39 { font-size: 14px;line-height: 20px;fill: #ffffff;font-family: "Lato";font-weight: 500 } 
+    .txt40 { font-size: 16px;line-height: 24px;fill: #ffffff;font-family: "Lato";font-weight: 400 } 
+    .txt41 { font-size: 16px;line-height: 24px;fill: #ffffff;font-family: "Heebo";font-weight: 300 } 
+    .txt42 { font-size: 18px;line-height: 26px;fill: #ffffff;font-family: "Lato";font-weight: 300 } 
+    .txt43 { font-size: 40px;line-height: 42px;fill: #ffffff;font-family: "Lato";font-weight: 300 }
 
