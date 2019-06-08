@@ -5,3 +5,26 @@
 	bottom: 54px;
 
  }
+
+.top-line {
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+}
+
+
+
+.purple-haze {
+	/*position: absolute;*/
+	z-index: 1;
+	background: linear-gradient(85deg, #8d4de7, #ff2365);
+	top: 180px;
+	position: absolute;
+	height: 190px;
+	width: 375px;
+}
+
+.background-image {
+	z-index: -2;
+
+}

@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import './FeedView.css';
+import backgroundImage from '../../initial-assets/background-image.png';
 
 const FeedView = () => {
 	return (
 		<div className="feed-view white">
-			<div className="background-image shp0" >background-image</div>
-			<div className="top-line">top-line</div>
+			<div className="background-image shp0" >
+				<img src={backgroundImage} /> 
+			</div>
+			<div className="top-line mt4 ml4">top-line</div>
 			<div className="purple-haze shp36">purple-haze</div> 
 			<div className="who-are-you">who-are-you</div>
 			<div className="it-doesnt-matter">it-doesnt-matter</div>
