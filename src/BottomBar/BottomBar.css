@@ -3,5 +3,7 @@
 	height: 52px;
 	position: absolute;
 	bottom: 0px;
+	justify-content: center;
+	align-content: center;
 
  }

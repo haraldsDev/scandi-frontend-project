@@ -3,7 +3,6 @@
 	/*height: 52px;*/
 	position: absolute;
 	bottom: 54px;
-
  }
 
 .top-line {
@@ -11,8 +10,6 @@
 	z-index: 1;
 	top: 0px;
 }
-
-
 
 .purple-haze {
 	/*position: absolute;*/
@@ -26,5 +23,18 @@
 
 .background-image {
 	z-index: -2;
+}
 
+.who-are-you {
+	margin-left: 15px;
+	justify-content: left;
+	position: absolute;
+	top: 290px;
+}
+
+.it-doesnt-matter {
+	margin-left: 17px;
+	margin-right: -1000px;
+	position: absolute;
+	top: 418px;
 }

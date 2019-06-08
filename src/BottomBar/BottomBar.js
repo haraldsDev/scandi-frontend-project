@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './BottomBar.css';
 
 const BottomBar = () => {
 	return (
 		<div className="bottom-bar shp33 white bt bw1 b--white-40">
-			<p className="center"> here will be BottomBar </p>
+			<p className="ml4"> here will be BottomBar </p>
 		</div>
 
 	);
@@ -12,7 +12,7 @@ const BottomBar = () => {
 
 export default BottomBar;
 
-{
+
 /*
 
 		<g id="Bottom Bar">
@@ -26,5 +26,5 @@ export default BottomBar;
 		</g>
 
 */
-}
+
 	

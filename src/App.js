@@ -6,7 +6,7 @@ import FeedView from './containers/FeedView/FeedView';
 function App() {
   return (
     <div>
-	    <div className="App">
+	    <div className="">
 	    	<FeedView />
 	    	<BottomBar />
 	    </div>

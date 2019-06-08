@@ -1,18 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './FeedView.css';
 import backgroundImage from '../../initial-assets/background-image.png';
 
-const FeedView = () => {
+const FeedView = () => { 
 	return (
 		<div className="feed-view white">
 			<div className="background-image shp0" >
-				<img src={backgroundImage} /> 
+				<img src={backgroundImage} alt=""/> 
 			</div>
-			<div className="top-line mt4 ml4">top-line</div>
-			<div className="purple-haze shp36">purple-haze</div> 
-			<div className="who-are-you">who-are-you</div>
-			<div className="it-doesnt-matter">it-doesnt-matter</div>
-
+			<div classname="upper-two-thirds">
+				<div className="top-line mt4 ml4">top-line</div>
+				<div className="purple-haze shp36">purple-haze</div>  
+				<div className="who-are-you txt43 mb1">Who are you and <br /> why you're <br />standing here?</div>
+				<div className="it-doesnt-matter txt42 mt0">It doesn't matter if you're building the next Facebook, or if you're the director of marketing for an industrial company.</div>
+			</div>
 
 			<div className="user-bar ba">
 				<div>
@@ -38,7 +39,7 @@ const FeedView = () => {
 				</div>
 			</div>
 
-			<p className="center yellow"> here will be FeedView </p>
+			<p className="center yellow"></p>
 		</div>
 
 	);
@@ -46,7 +47,12 @@ const FeedView = () => {
 
 export default FeedView;
 
-{
+
+
+/*
+<div className="it-doesnt-matter txt42 mt0">It doesn't matter if you're building the next Facebo <br /> ok, or if you're the director of marketing for an industrial company.</div>
+*/
+
 /*
 
 <g id="Feed #1" clip-path="url(#cp3)">
@@ -71,6 +77,6 @@ export default FeedView;
 	</g>
 
 */
-}
+
 
 	 
