@@ -14,11 +14,14 @@
 .purple-haze {
 	/*position: absolute;*/
 	z-index: 1;
-	background: linear-gradient(85deg, #8d4de7, #ff2365);
+	background: linear-gradient( #8d4de7, #ff2365);
+	
+	transform: translate(-50px, 60px) rotate(15deg);
 	top: 180px;
 	position: absolute;
-	height: 190px;
-	width: 375px;
+	height: 160px;
+	width: 475px;
+	opacity: 0.202;
 }
 
 .background-image {

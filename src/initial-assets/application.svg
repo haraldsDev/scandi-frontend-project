@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2639 2050" width="2639" height="2050">
 	<defs>
 		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
-			<path d="M631 319L1006 319L1006 986L631 986Z" />
+			<path d="M631 319L1006 319L1006 986L631 986Z" /> 
 		</clipPath>
 		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="891.5" y1="716" x2="891.5" y2="539">
 			<stop offset="0" stop-color="#6955eb"  /> 

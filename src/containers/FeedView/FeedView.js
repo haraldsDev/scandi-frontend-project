@@ -9,15 +9,15 @@ const FeedView = () => {
 		<div className="feed-view white">
 			<div className="background-image shp0 shp36 " >
 				<img src={backgroundImage} alt=""/>  
-			</div>
-			<div classname="upper-two-thirds">
+			</div> 
+			<div className="upper-two-thirds">
 				<div className="top-line mt4 ml4">top-line</div>
-				<div className="purple-haze shp36">purple-haze</div>  
+				<div className="purple-haze shp36"></div>   
 				<div className="who-are-you txt43 mb1">Who are you and <br /> why you're <br />standing here?</div>
 				<div className="it-doesnt-matter txt42 mt0">It doesn't matter if you're building the next Facebook, or if you're the director of marketing for an industrial company.</div>
 			</div>
 
-			<div className="user-bar ba">
+			<div className="user-bar bt bw1 b--white-05">
 				<div>
 					<div id="Users">
 						
