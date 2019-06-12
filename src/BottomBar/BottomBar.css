@@ -9,24 +9,19 @@
  }
 
 .icons img {
-	color: rgba(0, 0, 255, 1);
+	/*color: rgba(0, 0, 255, 1);*/
+	height: 30px;
+	width: 30px;
 }
 
-.whitePerson {
-	color: yellow;
-	background-color: white;
-	fill: red;
+.inactive {
+	color: rgba(255, 255, 255, 1);
+		filter: invert(30%);
+
 }
 
-.baselinePerson {
-	filter: invert(100%);
-}
+.active {
+	color: rgba(255, 255, 255, 1);	
+		filter: invert(100%);
 
-.person {
-	background-color: white;
-	filter: invert(100%);
-}
-
-.person2 {
-	/*background-color: black;*/
 }
