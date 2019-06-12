@@ -3,6 +3,8 @@ import './FeedView.css';
 import backgroundImage from '../../initial-assets/background-image.png';
 import userpic1 from '../../initial-assets/userpic1.png';
 import userpic2 from '../../initial-assets/userpic2.png';
+import arrowBack from '../../initial-assets/icons/arrowBack.svg';
+
 
 const FeedView = () => { 
 	return (
@@ -11,7 +13,11 @@ const FeedView = () => {
 				<img src={backgroundImage} alt=""/>  
 			</div> 
 			<div className="upper-two-thirds">
-				<div className="top-line mt4 ml4">top-line</div>
+				<div className="top-line mt4 ml3">
+					<div className="back-arrow-circle ba bw1 b--white-10"> 
+						<img src={arrowBack} alt="" className="pointer shp9"/>
+					</div>
+				</div>
 				<div className="purple-haze shp36"></div>   
 				<div className="who-are-you txt43 mb1">Who are you and <br /> why you're <br />standing here?</div>
 				<div className="it-doesnt-matter txt42 mt0">It doesn't matter if you're building the next Facebook, or if you're the director of marketing for an industrial company.</div>

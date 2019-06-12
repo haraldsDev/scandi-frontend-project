@@ -1,10 +1,36 @@
 import React from 'react';
 import './BottomBar.css';
+import baselinePerson from '../initial-assets/icons/baselinePerson.svg';
+
+
 
 const BottomBar = () => { 
 	return (
-		<div className="bottom-bar shp33 white bt bw1 b--white-05">
-			<p className="ml4"> here will be BottomBar </p>
+		<div className="bottom-bar shp33 bt bw1 b--white-05">
+			
+			<div className="icons flex flex-wrap">
+
+				<div className=""> 
+					<img src={baselinePerson} alt="" className="pointer baselinePerson"/>
+				</div>
+				<div className=""> 
+					<img src={baselinePerson} alt="" className="pointer baselinePerson"/>
+				</div>
+				<div className=""> 
+					<img src={baselinePerson} alt="" className="pointer baselinePerson"/>
+				</div>
+				<div className=""> 
+					<img src={baselinePerson} alt="" className="pointer baselinePerson"/>
+				</div>
+				<div className=""> 
+					<img src={baselinePerson} alt="" className="pointer baselinePerson"/>
+				</div>
+				<div className=""> 
+					<img src={baselinePerson} alt="" className="pointer baselinePerson"/>
+				</div>
+			</div>
+
+
 		</div>
 
 	);

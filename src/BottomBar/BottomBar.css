@@ -7,3 +7,26 @@
 	align-content: center;
 
  }
+
+.icons img {
+	color: rgba(0, 0, 255, 1);
+}
+
+.whitePerson {
+	color: yellow;
+	background-color: white;
+	fill: red;
+}
+
+.baselinePerson {
+	filter: invert(100%);
+}
+
+.person {
+	background-color: white;
+	filter: invert(100%);
+}
+
+.person2 {
+	/*background-color: black;*/
+}
