@@ -26,3 +26,63 @@
 	margin-top: 40px;
 	margin-bottom: 20px;
 }
+
+.blue-line {
+	height: 3px;
+	width: 59px;
+	background-color: #0B78E3; 
+	border-radius: 3px;
+	align-items: center;
+}
+
+.circle-chart {
+	width: 220px;
+	height: 220px;
+	background-color: orange;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.circle-center {
+	background-color: yellow;
+	border-radius: 50%;
+	color: salmon;
+	width: 180px;
+	height: 180px;
+	position: relative;
+	margin: auto;
+	top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.food-and-restaurants {
+	align-items: center;
+}
+
+.fork-icon {
+	height: 30px;
+	width: 30px;
+	color: rgba(255, 255, 255, 1);	
+		filter: invert(100%);
+}
+
+.box {
+	width: 163px;
+	height: 70px;
+	border-width: 40px;
+	border-radius: 2px;
+	border-color: white;
+	background-color: orange;
+}
+
+.left-box {
+	border-color: blue;
+	border-width: 40px;
+	stroke: 15px;
+}
+
+.right-box {
+	border-color: red;
+}
