@@ -1,18 +1,20 @@
 import React from 'react';
 import './FeedView.css';
-import backgroundImage from '../../initial-assets/background-image.png';
-import userpic1 from '../../initial-assets/userpic1.png';
-import userpic2 from '../../initial-assets/userpic2.png';
-import arrowBack from '../../initial-assets/icons/arrowBack.svg';
+import backgroundImage from './background-image.png';
+import userpic1 from './userpic1.png';
+import userpic2 from './userpic2.png';
+import arrowBack from './BottomBar/icons/arrowBack.svg';
+import BottomBar from './BottomBar/BottomBar';
 
-const FeedView = () => { 
+
+const FeedView = ({ onRouteChange }) => { 
 	return (
 		<div className="feed-view white">
 			<div className="background-image shp0 shp36 " >
 				<img src={backgroundImage} alt=""/>  
 			</div> 
 			<div className="upper-two-thirds">
-				<div className="top-line mt4 ml3">
+				<div className="top-line mt4 ml3" onClick={() => onRouteChange('statisticsview')}>
 					<div className="back-arrow-circle ba bw1 b--white-10"> 
 						<img src={arrowBack} alt="" className="pointer shp9"/>
 					</div>
@@ -46,6 +48,7 @@ const FeedView = () => {
 					</div>
 				</div>
 			</div>
+			<BottomBar/>
 		</div>
 	);
 }

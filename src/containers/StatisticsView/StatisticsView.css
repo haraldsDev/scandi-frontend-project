@@ -1,0 +1,28 @@
+
+.top-line { 
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+} 
+
+.back-arrow-circle {
+	height: 43px;
+	width: 43px;
+	border-radius: 50%;
+	background-color: rgb(56,57,67, 0.171);				 /* #1a1b25;  rgb(26,27,37, 0.171);	 */
+}
+
+.back-arrow-circle img {
+	position: absolute;
+	display: block;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.statistics-panel {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}

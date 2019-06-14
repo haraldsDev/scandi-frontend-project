@@ -1,10 +1,10 @@
 import React from 'react';
 import './BottomBar.css';
-import person from '../initial-assets/icons/person.svg';
-import statistics1 from '../initial-assets/icons/statistics1.svg';
-import notifications from '../initial-assets/icons/notifications.svg';
-import bookmark from '../initial-assets/icons/bookmark.svg';
-import home from '../initial-assets/icons/home.svg';
+import person from './icons/person.svg';
+import statistics1 from './icons/statistics1.svg';
+import notifications from './icons/notifications.svg';
+import bookmark from './icons/bookmark.svg';
+import home from './icons/home.svg';
 
 const BottomBar = () => { 
 	return (
@@ -13,7 +13,7 @@ const BottomBar = () => {
 				<div className=""> 
 					<img src={person} alt="" className="pointer person inactive"/>
 				</div>
-				<div className=""> 
+				<div className="" > 
 					<img src={statistics1} alt="" className="pointer statistics1 active"/>
 				</div>
 				<div className=""> 
@@ -22,7 +22,6 @@ const BottomBar = () => {
 				<div className=""> 
 					<img src={bookmark} alt="" className="pointer bookmark inactive"/>
 				</div>
-
 				<div className=""> 
 					<img src={home} alt="" className="pointer home inactive"/>
 				</div>
