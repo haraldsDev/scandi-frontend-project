@@ -37,14 +37,23 @@ const StatisticsView = ({ onRouteChange }) => {
 				<div className="food-and-restaurants mt4 ">
 					<div className=" flex justify-center"> 
 						<img src={restaurant} alt="" className=" fork-icon pointer shp9"/>
-						<p>$230</p>
+						<div className="txt8">$230</div>
 					</div>
-					<p className="flex justify-center"> food and restaurants</p>
+					<div className="food-and-restaurants-text flex justify-center txt7"> food and restaurants</div>
 				</div>
 
 				<div className="balance-boxes flex justify-around">
-					<div className="box left-box"></div>
-					<div className="box right-box"></div>
+					<div className="box left-box shp1 ">
+						<div className="dollars-container flex justify-around">
+							<div className="dollars txt4">+$1400
+							</div>
+							<div className="cents flex flex-column">	
+								<div className="txt3">99</div>	
+								<img src={restaurant} alt="" className="blue-cents-line"/>						
+							</div>
+						</div>
+					</div>
+					<div className="box right-box"></div> 
 				</div>
 
 			</div>
