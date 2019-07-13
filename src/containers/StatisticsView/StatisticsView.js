@@ -20,7 +20,7 @@ const StatisticsView = ({ onRouteChange }) => {
 					</div>
 				</div>
 					<div className="statistics-panel flex justify-center">
-						<div className="mt1 txt8">Statistic</div>
+						<div className="txt8 statistic-text">Statistic</div>
 						<div className="ml3" > 
 							<img src={statistics1} alt="" className="pointer statistics1 active"/>
 						</div>
@@ -38,7 +38,7 @@ const StatisticsView = ({ onRouteChange }) => {
 				<div className="food-and-restaurants mt4 ">
 					<div className=" flex justify-center"> 
 						<img src={restaurant} alt="" className=" fork-icon pointer shp9"/>
-						<div className="txt8">$230</div>
+						<div className="txt8 text-230">$230</div>
 					</div>
 					<div className="food-and-restaurants-text flex justify-center txt7"> food and restaurants</div>
 				</div>
@@ -46,21 +46,31 @@ const StatisticsView = ({ onRouteChange }) => {
 				<div className="balance-boxes flex justify-around">
 					<div className="box left-box shp1 ">
 						<div className="dollars-container flex justify-around "> 
-							<div className="txt4 dollars flex flex-row">+$1400
+							<div className="txt4 dollars flex flex-row">
+								<div className="dollar-text">
+									+$1400
+								</div>
 							</div>
-							<div className="cents flex flex-column">	
-								<div className="txt3">99</div>	
-								<img src={trending_up} alt="" className="blue-cents-line"/>					
+							<div className="cents justify-center">	
+								<div className="cents-and-arrow">
+									<div className="txt3 cents-number">99</div>	
+									<img src={trending_up} alt="" className="blue-cents-line"/>					
+								</div>
 							</div>
 						</div>
 					</div>
 					<div className="box right-box">
 						<div className="dollars-container flex justify-around "> 
-							<div className="txt4 dollars flex flex-row">-$980
+							<div className="txt4 dollars flex flex-row">
+								<div className="dollar-text">
+								-$980
+								</div>
 							</div>
-							<div className="cents flex flex-column">	
-								<div className="txt3">25</div>	
-								<img src={trending_down} alt="" className="blue-cents-line"/>					
+							<div className="cents justify-center">	
+								<div className="cents-and-arrow cents-and-arrow-right">
+									<div className="txt3 cents-number">25</div>	
+									<img src={trending_down} alt="" className="blue-cents-line"/>	
+								</div>				
 							</div>
 						</div>
 					</div> 
