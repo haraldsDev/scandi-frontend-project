@@ -20,12 +20,12 @@ tspan { white-space:pre }
     .shp0 { fill: #161823 } 
     .shp1 { fill: none;stroke: #ff2366;stroke-width: 0.5 } 
     .shp2 { fill: #ff2366 } 
-    .txt3 { font-size: 14px;line-height: 36px;fill: #ffffff;font-family: "Lato";font-weight: 500 } 
+    .txt3 { font-size: 14px;fill: #ffffff;font-family: "Lato";font-weight: 500 } 
     .txt4 { font-size: 28px;fill: #ffffff;font-family: "Lato";font-weight: 400 } 
     .shp5 { fill: none;stroke: #0b78e3;stroke-width: 0.5 } 
     .shp6 { fill: #0b78e3 } 
     .txt7 { font-size: 14px;line-height: 20px;fill: #ffffff;font-family: "Lato";font-weight: 400 } 
-    .txt8 { font-size: 18px;line-height: 26px;fill: #ffffff;font-family: "Lato";font-weight: 500 } 
+    .txt8 { font-size: 18px;fill: #ffffff;font-family: "Lato";font-weight: 500 } 
     .shp9 { fill: #ffffff } 
     .shp10 { fill: #0e0f1a } 
     .shp11 { fill: url(#grd1) } 
