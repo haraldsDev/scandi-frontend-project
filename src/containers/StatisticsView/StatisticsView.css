@@ -107,17 +107,29 @@
 		filter: invert(100%);
 }
 
-/*.dollars-container {
-	position: relative;
+.dollars-container {
+	/*position: relative;
 	display: block;
 	margin: auto;
 	top: 0;
 	bottom: 0;
 	left: 0;
-	right: 0;
-}*/
+	right: 0;*/
+	height: 70px;
+	widows: 163px;
+}
 
 .food-and-restaurants-text {
 
 
+}
+
+.dollars {
+	position: relative;
+	/*display: inline;*/
+	/*margin: auto;*/
+	top: 80;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }

@@ -5,7 +5,8 @@ import statistics1 from '../FeedView/BottomBar/icons/statistics1.svg';
 import { months } from './months.js';
 import MonthsPanel from './MonthsPanel';
 import restaurant from '../FeedView/BottomBar/icons/restaurant.svg';
-
+import trending_up from './trending_up.svg';
+import trending_down from './trending_down.svg';
 
 
 const StatisticsView = ({ onRouteChange }) => { 
@@ -44,16 +45,25 @@ const StatisticsView = ({ onRouteChange }) => {
 
 				<div className="balance-boxes flex justify-around">
 					<div className="box left-box shp1 ">
-						<div className="dollars-container flex justify-around">
-							<div className="dollars txt4">+$1400
+						<div className="dollars-container flex justify-around "> 
+							<div className="txt4 dollars flex flex-row">+$1400
 							</div>
 							<div className="cents flex flex-column">	
 								<div className="txt3">99</div>	
-								<img src={restaurant} alt="" className="blue-cents-line"/>						
+								<img src={trending_up} alt="" className="blue-cents-line"/>					
 							</div>
 						</div>
 					</div>
-					<div className="box right-box"></div> 
+					<div className="box right-box">
+						<div className="dollars-container flex justify-around "> 
+							<div className="txt4 dollars flex flex-row">-$980
+							</div>
+							<div className="cents flex flex-column">	
+								<div className="txt3">25</div>	
+								<img src={trending_down} alt="" className="blue-cents-line"/>					
+							</div>
+						</div>
+					</div> 
 				</div>
 
 			</div>
