@@ -7,6 +7,7 @@ import MonthsPanel from './MonthsPanel';
 import restaurant from '../FeedView/BottomBar/icons/restaurant.svg';
 import trending_up from './trending_up.svg';
 import trending_down from './trending_down.svg';
+import circlePath from './circlePath.svg';
 
 
 const StatisticsView = ({ onRouteChange }) => { 
@@ -34,6 +35,7 @@ const StatisticsView = ({ onRouteChange }) => {
 				<div className="circle-chart">
 					<div className="circle-center">
 					</div>
+					<img src={circlePath} alt="" className=""/>	
 				</div>
 				<div className="food-and-restaurants mt4 ">
 					<div className=" flex justify-center"> 
