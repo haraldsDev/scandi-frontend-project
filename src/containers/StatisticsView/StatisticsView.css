@@ -27,6 +27,11 @@
 	margin-bottom: 20px;
 }
 
+.months-panel {
+	background-color: #060812;	
+	height: 54px;
+}
+
 .blue-line {
 	height: 3px;
 	width: 59px;
@@ -35,13 +40,7 @@
 	align-items: center;
 }
 
-.circle-chart {
-	width: 220px;
-	height: 220px;
-	background-color: orange;
-	margin: auto;
-	margin-top: 50px;
-}
+
 
 .circle-center {
 	background-color: yellow;
@@ -172,4 +171,65 @@
 
 .text-230 {
 
+}
+
+.circle-chart {
+	background-color: 	white;
+	position: relative;	
+	width: 234px;
+	height: 251px;
+	margin: auto;
+	margin-top: 50px;
+}
+.sector {
+	height: 100px;
+	width: 100px;
+	border-radius: 100% 0 0  0;	
+}
+
+.sector.purple {
+	position: absolute;	
+	background: 	linear-gradient(#ff2366, #8d4de8);
+	top: -14px;
+	left: 20px;
+	transform: 	rotate(21deg);
+}
+
+.sector.blue {
+	position: absolute;
+	background: 	linear-gradient(#6956ec, #56b2ba);
+	top: 38px;
+	left: 92px;
+	transform: 	rotate(117deg);
+	height: 95px;
+	width: 115px;
+	border-radius: 100% 0 0 0;	
+}
+
+.sector.yellow {
+	position: absolute;
+	background: 	linear-gradient(#fd3f2f, #face15);
+	top: 111px;
+	left: 52px;
+	transform: 	rotate(222deg);
+}
+
+.sector.dark-black {
+	position: absolute;
+	background-color: 	#060812;
+	top: 79px;
+	left: 2px;
+	transform: 	rotate(286deg);
+	height: 90px;
+	width: 90px;
+}
+
+.black-circle-middle {
+	position: absolute;
+	background-color: 	#161823;
+	border-radius: 50% 50% 50% 50%;
+	height: 133px;
+	width: 133px;
+	top: 28px;
+	left: 32px;
 }

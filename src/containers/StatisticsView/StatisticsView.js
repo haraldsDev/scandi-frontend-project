@@ -7,7 +7,7 @@ import MonthsPanel from './MonthsPanel';
 import restaurant from '../FeedView/BottomBar/icons/restaurant.svg';
 import trending_up from './trending_up.svg';
 import trending_down from './trending_down.svg';
-import circlePath from './circlePath.svg';
+// import circlePath from './circlePath.svg';
 
 
 const StatisticsView = ({ onRouteChange }) => { 
@@ -33,9 +33,13 @@ const StatisticsView = ({ onRouteChange }) => {
 				<div className="blue-line shp6 center"></div>
 				
 				<div className="circle-chart">
-					<div className="circle-center">
-					</div>
-					<img src={circlePath} alt="" className=""/>	
+										
+					<div className="sector dark-black"></div>
+					<div className="sector blue"></div>
+					<div className="sector purple"></div>
+					<div className="sector yellow"></div>
+					<div className="black-circle-middle"></div>
+
 				</div>
 				<div className="food-and-restaurants mt4 ">
 					<div className=" flex justify-center"> 
