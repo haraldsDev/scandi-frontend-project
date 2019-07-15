@@ -61,9 +61,9 @@
 	position: relative;
 	/*height: 100%;*/
 	/*display: block;*/
-	margin: auto;
-	top: 0;
-	bottom: 0;
+	/*margin: auto;*/
+	padding-top: 20px;
+	padding-bottom: 5px;
 	/*left: 0;*/
 	/*right: 0;*/
 }
@@ -174,7 +174,7 @@
 }
 
 .circle-chart {
-	background-color: 	white;
+	/*background-color: 	white;*/
 	position: relative;	
 	width: 234px;
 	height: 251px;
@@ -182,54 +182,55 @@
 	margin-top: 50px;
 }
 .sector {
-	height: 100px;
-	width: 100px;
+	height: 140px;
+	width: 140px;
 	border-radius: 100% 0 0  0;	
 }
 
 .sector.purple {
 	position: absolute;	
 	background: 	linear-gradient(#ff2366, #8d4de8);
-	top: -14px;
+	top: -21px;
 	left: 20px;
-	transform: 	rotate(21deg);
+	transform: 	rotate(24deg);
 }
 
 .sector.blue {
 	position: absolute;
 	background: 	linear-gradient(#6956ec, #56b2ba);
-	top: 38px;
-	left: 92px;
-	transform: 	rotate(117deg);
-	height: 95px;
-	width: 115px;
-	border-radius: 100% 0 0 0;	
+	top: 13px;
+	left: 25px;
+	transform: 	rotate(165deg);
+	height: 215px;
+	width: 215px;
+	border-radius: 50% 50% 50% 50%;	
 }
 
 .sector.yellow {
 	position: absolute;
 	background: 	linear-gradient(#fd3f2f, #face15);
-	top: 111px;
-	left: 52px;
-	transform: 	rotate(222deg);
+	top: 137px;
+	left: 53px;
+	transform: 	rotate(223deg);
 }
 
 .sector.dark-black {
 	position: absolute;
 	background-color: 	#060812;
-	top: 79px;
-	left: 2px;
-	transform: 	rotate(286deg);
-	height: 90px;
-	width: 90px;
+	top: 38px;
+	left: 6px;
+	transform: 	rotate(236deg);
+	height: 185px;
+	width: 185px;
+	border-radius: 50% 50% 50% 50%;
 }
 
 .black-circle-middle {
 	position: absolute;
 	background-color: 	#161823;
 	border-radius: 50% 50% 50% 50%;
-	height: 133px;
-	width: 133px;
-	top: 28px;
-	left: 32px;
+	height: 162px;
+	width: 162px;
+	top: 42px;
+	left: 40px;
 }

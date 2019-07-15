@@ -34,8 +34,9 @@ const StatisticsView = ({ onRouteChange }) => {
 				
 				<div className="circle-chart">
 										
-					<div className="sector dark-black"></div>
+					
 					<div className="sector blue"></div>
+					<div className="sector dark-black"></div>
 					<div className="sector purple"></div>
 					<div className="sector yellow"></div>
 					<div className="black-circle-middle"></div>
