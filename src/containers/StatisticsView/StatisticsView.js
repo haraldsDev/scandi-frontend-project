@@ -33,22 +33,34 @@ const StatisticsView = ({ onRouteChange }) => {
 				<div className="blue-line shp6 center"></div>
 				
 				<div className="circle-chart">
-										
-					
-					<div className="sector blue">
-						<div className="blue-segment"></div>
-						<div className="blue-segment-mask"></div>
+					<div className="blue-segment pointer">
+						<div className="two-white-points">
+							<div className="white-point-hollow"></div>
+							<div className="white-point-inner"></div>
+						</div>
 					</div>
-					<div className="sector dark-black">
-						<div className="dark-black-segment-mask"></div>
-						<div className="dark-black-segment"></div>
+					<div className="sector dark-black"></div>
+					<div className="sector purple pointer">
+						<div className="two-white-points">
+							<div className="white-point-hollow"></div>
+							<div className="white-point-inner"></div>
+						</div>
 					</div>
-					<div className="sector purple"></div>
-					<div className="sector yellow"></div>
-					<div className="black-circle-middle"></div>
-
+					<div className="sector yellow pointer">
+						<div className="white-point-full"></div>
+					</div>
+					<div className="black-circle-middle">
+						<div className="dollars-and-balance">
+							<div className="dollars-and-centrs-center flex flex-row justify-center">
+								<div className="dollars-center txt8 white">$420</div>
+								<div className="txt3 cents-center">25</div>	
+							</div>
+							<div className="balance-center txt17 flex justify-center">balance</div>
+						</div>
+					</div>
 				</div>
-				<div className="food-and-restaurants mt4 ">
+
+				<div className="food-and-restaurants mt4">
 					<div className=" flex justify-center"> 
 						<img src={restaurant} alt="" className=" fork-icon pointer shp9"/>
 						<div className="txt8 text-230">$230</div>

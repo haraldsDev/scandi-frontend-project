@@ -185,7 +185,7 @@
 .sector {
 	height: 140px;
 	width: 140px;
-	border-radius: 127px 0 0  0;	
+	border-radius: 127px 0 0 0;	
 }
 
 .sector.purple {
@@ -216,20 +216,8 @@
 	transform: 	rotate(165deg);
 	height: 216px;
 	width: 113px;
-	/*border-radius: 50% 50% 50% 50%;	*/
 	border-bottom-left-radius: 113px;
 	border-top-left-radius: 113px;
-}
-
-.blue-segment-mask {
-	position: absolute;
-	background-color: black;
-	top: 48px;
-	left: 59px;
-	transform: 	rotate(165deg);
-	height: 145px;
-	width: 145px;
-	border-radius: 50% 50% 50% 50%;	
 }
 
 .sector.yellow {
@@ -239,6 +227,15 @@
 	left: 53px;
 	transform: 	rotate(223deg);
 }
+
+
+/*	.sector.purple,
+	.blue-segment,*/
+
+	.sector :hover {
+		background-color: green;
+}
+
 
 .sector.dark-black {
 	position: absolute;
@@ -252,17 +249,6 @@
 	border-top-left-radius: 103px;
 }
 
-/*.sector.dark-black {
-	position: absolute;
-	background-color: 	#060812;
-	top: 48px;
-	left: 5px;
-	transform: 	rotate(355deg);
-	height: 195px;
-	width: 195px;
-	border-radius: 195px;
-}*/
-
 
 .black-circle-middle {
 	position: absolute;
@@ -273,3 +259,87 @@
 	top: 42px;
 	left: 42px;
 }
+
+.dollars-and-balance {
+	margin-top: 63px;
+	margin-left: 8px;
+	width: 150px;
+	height: 70px; 
+}
+
+.dollars-center {
+	font-size: 28px;fill: #ffffff;font-family: "Lato";font-weight: 500;
+}
+
+.cents-center {
+	margin-left: 10px;
+}
+
+.balance-center {
+	opacity: 0.6;
+	margin-top: 4px;
+}
+
+/*.circle-path {
+	color: rgba(255, 255, 255, 1);
+		filter: invert(30%);
+}*/
+
+.yellow .white-point-full {
+	position: absolute;
+	height: 24px;
+	width: 24px;
+	background-color: white;
+	border-radius: 50% 50% 50% 50%;
+	margin-top: 70px;
+	margin-left: -3px;
+}
+
+.purple .white-point-hollow {
+	position: absolute;
+	height: 24px;
+	width: 24px;
+	border: 0.5px solid white;
+	fill: transparent;
+	border-radius: 50% 50% 50% 50%;
+	margin-top: 38px;
+	margin-left: 13px;
+}
+
+.purple .white-point-inner {
+	position: absolute;
+	height: 7px;
+	width: 7px;
+	background-color: white;
+	border-radius: 50% 50% 50% 50%;
+	margin-top: 47px;
+	margin-left: 22px;
+}
+
+.blue-segment .two-white-points {
+	margin-left: -16px;
+	margin-top: 100px;
+}
+
+.blue-segment .white-point-hollow {
+	position: absolute;
+	height: 24px;
+	width: 24px;
+	border: 0.5px solid white;
+	fill: transparent;
+	border-radius: 50% 50% 50% 50%;
+	margin-top: 38px;
+	margin-left: 13px;
+}
+
+.blue-segment .white-point-inner {
+	position: absolute;
+	height: 7px;
+	width: 7px;
+	background-color: white;
+	border-radius: 50% 50% 50% 50%;
+	margin-top: 47px;
+	margin-left: 22px;
+}
+
+
