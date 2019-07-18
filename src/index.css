@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 667px; 
-  width: 375px;
+  max-height: 667px; 
+  max-width: 375px;
   background-color: #161823;
 }
 
@@ -34,8 +34,8 @@ tspan { white-space:pre }
     .shp14 { fill: url(#grd3) } 
     .shp15 { opacity: 0.369;fill: #000000 } 
     .shp16 { fill: none;stroke: #ffffff } 
-    .txt17 { font-size: 14px;line-height: 20px;fill: #ffffff;font-family: "Heebo";font-weight: 400 } 
-    .txt18 { font-size: 28px;line-height: 36px;fill: #ffffff;font-family: "Lato";font-weight: 500 } 
+    .txt17 { font-size: 14px;fill: #ffffff;font-family: "Heebo";font-weight: 400 } 
+    .txt18 { font-size: 28px;fill: #ffffff;font-family: "Lato";font-weight: 500 } 
     .shp19 { fill: #060812 } 
     .shp20 { opacity: 0.102;fill: #ffffff } 
     .txt21 { font-size: 14px;line-height: 24px;fill: #ffffff;font-family: "Lato";font-weight: 500 } 
