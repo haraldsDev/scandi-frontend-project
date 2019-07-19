@@ -33,20 +33,23 @@ const StatisticsView = ({ onRouteChange }) => {
 				<div className="blue-line shp6 center"></div>
 				
 				<div className="circle-chart">
-					<div className="blue-segment pointer">
+					<div className="blue-segment-background"></div>
+					<div className="blue-segment pointer dim">
 						<div className="two-white-points">
 							<div className="white-point-hollow"></div>
 							<div className="white-point-inner"></div>
 						</div>
 					</div>
 					<div className="sector dark-black"></div>
-					<div className="sector purple pointer">
+					<div className="sector-purple-background"></div>
+					<div className="sector purple pointer dim">
 						<div className="two-white-points">
 							<div className="white-point-hollow"></div>
 							<div className="white-point-inner"></div>
 						</div>
 					</div>
-					<div className="sector yellow pointer">
+					<div className="sector-yellow-background"></div>
+					<div className="sector yellow pointer dim">
 						<div className="white-point-full"></div>
 					</div>
 					<div className="black-circle-middle">

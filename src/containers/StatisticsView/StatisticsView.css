@@ -197,6 +197,18 @@
 	transform: 	rotate(24deg);
 }
 
+.sector-purple-background {
+	height: 140px;
+	width: 140px;
+	border-radius: 127px 0 0 0;	
+	position: absolute;	
+	/*background-color: 	white;*/
+	background-color: 	#161823;
+	top: -21px;
+	left: 20px;
+	transform: 	rotate(24deg);
+}
+
 /*.sector.blue {
 	position: absolute;
 	background: 	linear-gradient(#6956ec, #56b2ba);
@@ -228,14 +240,17 @@
 	transform: 	rotate(223deg);
 }
 
-
-/*	.sector.purple,
-	.blue-segment,*/
-
-	.sector :hover {
-		background-color: green;
+.sector-yellow-background {
+	height: 140px;
+	width: 140px;
+	border-radius: 127px 0 0 0;	
+	position: absolute;
+	background-color: 	#161823;
+	top: 137px;
+	left: 53px;
+	transform: 	rotate(223deg);
 }
-
+	
 
 .sector.dark-black {
 	position: absolute;
